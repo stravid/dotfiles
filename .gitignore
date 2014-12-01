@@ -1,1 +1,6 @@
 *.sublime-settings
+!sublime-text-3/User/Pelatuk.sublime-settings
+!sublime-text-3/User/Preferences.sublime-settings
+sublime-text-3/User/Package Control*
+*
+sublime-text-3/User/Package Control.last-run

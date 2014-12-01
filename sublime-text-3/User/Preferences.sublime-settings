@@ -1,0 +1,56 @@
+{
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		"node_modules",
+		"tmp",
+		"build"
+	],
+	"font_face": "Fira Mono",
+	"font_options":
+	[
+		"no_bold"
+	],
+	"font_size": 19.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		79
+	],
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

@@ -1,3 +1,4 @@
-sublime-text-3/User/
+sublime-text-3/User/*
 !sublime-text-3/User/Pelatuk.sublime-settings
 !sublime-text-3/User/Preferences.sublime-settings
+!sublime-text-3/User/Markdown.sublime-settings

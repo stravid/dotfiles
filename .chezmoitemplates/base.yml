@@ -90,7 +90,7 @@ matches:
     replace: "‘"
 
   - trigger: ";date"
-    replace: "{{mydate}}"
+    replace: {{ "\"{{mydate}}\"" }}
     vars:
       - name: mydate
         type: date

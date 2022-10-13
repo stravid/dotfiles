@@ -1,0 +1,18 @@
+{{ if eq .chezmoi.os "linux" }}
+AppData
+AppData/Roaming
+AppData/Roaming/espanso
+AppData/Roaming/espanso/config
+AppData/Roaming/espanso/match
+AppData/Roaming/espanso/config/default.yml
+AppData/Roaming/espanso/match/base.yml
+{{ end }}
+
+{{ if eq .chezmoi.os "windows" }}
+.config
+.config/espanso
+.config/espanso/config
+.config/espanso/match
+.config/espanso/config/default.yml
+.config/espanso/match/base.yml
+{{ end }}

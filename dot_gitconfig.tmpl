@@ -1,0 +1,8 @@
+[user]
+	email = david@strauss.io
+	name = David Strauß
+
+{{ if eq .chezmoi.os "windows" }}
+[core]
+	sshCommand = 'C:\\Windows\\System32\\OpenSSH\\ssh.exe'
+{{ end }}

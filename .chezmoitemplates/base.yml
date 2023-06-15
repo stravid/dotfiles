@@ -96,3 +96,11 @@ matches:
         type: date
         params:
           format: "%Y-%m-%d"
+
+  - trigger: ";time"
+    replace: {{ "\"{{mytime}}\"" }}
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"

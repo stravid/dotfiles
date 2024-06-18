@@ -4,7 +4,7 @@ GroupAdd("ide", "ahk_exe phpstorm64.exe")
 GroupAdd("actions", "ahk_exe Everdo.exe")
 GroupAdd("sql", "ahk_exe heidisql.exe")
 GroupAdd("working", "ahk_exe chrome.exe")
-GroupAdd("mail", "ahk_exe outlook.exe")
+GroupAdd("mail", "ahk_exe OUTLOOK.EXE")
 GroupAdd("communication", "ahk_exe ms-teams.exe")
 GroupAdd("browsing", "ahk_exe firefox.exe")
 

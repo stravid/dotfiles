@@ -8,3 +8,6 @@ SetMouseDelay 40
 SetTitleMatchMode "RegEx"
 
 #Include WindowSwitching.ahk
+
+; Disable Alt-Tabbing so I learn to use the hotkeys for certain applications
+!Tab:: return

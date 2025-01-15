@@ -1,12 +1,11 @@
 {{ if eq .chezmoi.os "linux" }}
-scoop
-scoop/persist
-scoop/persist/espanso-pre
-scoop/persist/espanso-pre/.espanso
-scoop/persist/espanso-pre/.espanso/config
-scoop/persist/espanso-pre/.espanso/match
-scoop/persist/espanso-pre/.espanso/config/default.yml
-scoop/persist/espanso-pre/.espanso/match/base.yml
+AppData
+AppData/Roaming
+AppData/Roaming/espanso
+AppData/Roaming/espanso/config
+AppData/Roaming/espanso/match
+AppData/Roaming/espanso/config/default.yml
+AppData/Roaming/espanso/match/base.yml
 {{ end }}
 
 {{ if eq .chezmoi.os "windows" }}

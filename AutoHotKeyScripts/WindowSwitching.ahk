@@ -1,6 +1,7 @@
 GroupAdd("default_browser", "ahk_exe firefox.exe")
 GroupAdd("editor", "ahk_exe sublime_text.exe")
 GroupAdd("terminal", "ahk_exe wezterm-gui.exe")
+GroupAdd("terminal", "ahk_exe WindowsTerminal.exe")
 GroupAdd("ide", "ahk_exe phpstorm64.exe")
 GroupAdd("development_browser", "ahk_exe chrome.exe")
 GroupAdd("communication", "ahk_exe OUTLOOK.EXE")

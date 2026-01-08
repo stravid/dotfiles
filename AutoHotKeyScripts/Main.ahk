@@ -50,3 +50,10 @@ SetTitleMatchMode "RegEx"
 {
     Send FormatTime(, "HH:mm")
 }
+
+#HotIf GetKeyState("CapsLock", "T")
+j::Left
+i::Up
+k::Down
+l::Right
+#HotIf
